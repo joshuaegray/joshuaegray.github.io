@@ -10,7 +10,7 @@
 
   <header>
     <h1>Joshua Gray</h1>
-    <p class="tagline">CS Student &middot; Builder &middot; Problem Solver</p>
+    <p class="tagline">CS@UCSB &middot Computer Architecture Researcher &middot Incoming at IBM</p>
     <nav>
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
@@ -24,9 +24,13 @@
     <section id="about">
       <h2>About</h2>
       <p>
-        Hi, I'm Josh — a Computer Science major passionate about building software
-        that solves real problems. I enjoy working across the stack and am always
-        looking for opportunities to learn and grow.
+
+        I'm a second-year Computer Science major at the University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.
+
+        I'm currently working as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research specifically focuses on hardware accelerators and the optimizations designed for their unique micro-architectures. So far, we've implemented an ISA for OpenTPU and are now working a a generalized systolic array optimization.
+
+        This past summer, I worked as a Full-Stack Software Engineering Intern for a startup called ConstructWise, an AI-powered app that automates the construction planning process.
+
       </p>
     </section>
 
@@ -35,33 +39,38 @@
       <div class="project-grid">
 
         <div class="card">
-          <h3>Project One</h3>
-          <p>Short description of what this project does and what you learned from it.</p>
+          <h3>CHIP-8 Emulator</h3>
+          <p>A CHIP-8 Emulator built from the ground in C++, including the CPU execution, memory management, timers, display, and keypad input.</p>
+          <div class="tags">
+            <span>C++</span>
+            <span>Python</span>
+          </div>
+          <a href="https://github.com/joshuaegray/chip8-emulator" class="btn">GitHub &rarr;</a>
+        </div>
+
+        <div class="card">
+          <h3>SB Hacks 2026 Hardware Winner: AI Voice controlled Robotic Arm</h3>
+          <p>Built a voice-controlled robotic arm that detects and manipulates real-world objects using computer vision</p>
+          <div class="tags">
+            <span>React</span>
+            <span>FastAPI</span>
+            <span>Python</span>
+            <span>Grok</span>
+            <span>OpenCV</span>
+            <span>LeRobot</span>
+          </div>
+          <a href="SB Hacks 2026 Hardware Winner: Voice Controlled Robotic Arm" class="btn">GitHub &rarr;</a>
+        </div>
+
+        <div class="card">
+          <h3>Pipelined MIPS CPU | CS154</h3>
+            <p>
+            Implemented a 5-stage pipelined MIPS processor using PyRTL, including pipeline registers, hazard detection, and forwarding logic to ensure correct execution of dependent instructions. Verified processor behavior through cycle-accurate simulation of custom assembly programs and debugging of pipeline execution.
+            </p>
           <div class="tags">
             <span>Python</span>
-            <span>Flask</span>
+            <span>PyRTL</span>
           </div>
-          <a href="#" class="btn">GitHub &rarr;</a>
-        </div>
-
-        <div class="card">
-          <h3>Project Two</h3>
-          <p>Short description of what this project does and what you learned from it.</p>
-          <div class="tags">
-            <span>JavaScript</span>
-            <span>React</span>
-          </div>
-          <a href="#" class="btn">GitHub &rarr;</a>
-        </div>
-
-        <div class="card">
-          <h3>Project Three</h3>
-          <p>Short description of what this project does and what you learned from it.</p>
-          <div class="tags">
-            <span>Java</span>
-            <span>Algorithms</span>
-          </div>
-          <a href="#" class="btn">GitHub &rarr;</a>
         </div>
 
       </div>
@@ -70,18 +79,18 @@
     <section id="skills">
       <h2>Skills</h2>
       <ul class="skill-list">
-        <li>Languages: Python, Java, JavaScript, C</li>
-        <li>Web: HTML, CSS, React</li>
-        <li>Tools: Git, Linux, VS Code</li>
-        <li>Concepts: Data Structures, Algorithms, OOP</li>
+        <li>Languages: C/C++, Python, Java, JavaScript, MIPS assembly, Verilog</li>
+        <li>Frameworks: React, Next.js, Django, FastAPI</li>
+        <li>Developer Tools: Git, Linux, Bash, VS Code, Claude Code</li>
+        <li>Databases and Cloud Tools: Supabase (PostGreSQL)</li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
       <p>
-        Feel free to reach out via
-        <a href="mailto:your@email.com">email</a> or connect on
+        Feel free to connect via
+        <a href="https://www.linkedin.com/in/joshuaegray/">LinkedIn</a> or check ou my Github
         <a href="https://github.com/joshuaegray" target="_blank">GitHub</a>.
       </p>
     </section>
