@@ -73,8 +73,12 @@ nav a:hover {
   text-decoration: underline;
 }
 
+a {
+  color: #111;
+}
+
 a:visited {
-  color: inherit;
+  color: #111;
 }
 
 /* Sections */
