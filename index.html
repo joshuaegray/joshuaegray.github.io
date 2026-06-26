@@ -12,7 +12,9 @@
     <div class="header-top">
       <div>
         <h1>Joshua Gray</h1>
-        <p class="tagline">Computer Science at UCSB &middot Computer Architecture Researcher &middot Incoming at IBM</p>
+        <p class="tagline">Computer Science at UCSB</p>
+	<!-- </p class="tagline">Computer Architecture Researcher</p> -->
+	<p class="tagline">Incoming SDE at IBM</p>
       </div>
       <img src="GithubHeadshot.jpeg" alt="Joshua Gray" class="headshot" />
     </div>
@@ -31,15 +33,14 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>I'm a second-year Computer Science major at the University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.</p>
+      <p>I'm a senior studying Computer Science at University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.</p>
 
-      <p>I'm currently working as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research focuses on hardware accelerators and the optimizations designed for their unique micro-architectures. So far, we've implemented an ISA for OpenTPU and are now working on a generalized systolic array optimization.</p>
+     <p>Right now, I'm working as a Software Engineering Intern at UCSB, where I'm building a FAIR-compliance pipeline with event-driven automation to assess metadata quality for datasets published on Dataverse.</p>
 
-      <p>I also recently started a position as a Software Developer for UCSB ITS, where I'm building the infrastructure for DataSHORE, a multi-petabyte repository system for UCSB researchers.</p>
 
-      <p>This past summer, I worked as a Full-Stack Software Engineering Intern at ConstructWise, a startup building an AI-powered app that automates the construction planning process. </p>
+      <p>This previous year, I worked as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research focused on hardware accelerators, in particular OpenTPU, and the optimizations designed for their unique micro-architectures. Specifically, my work explored the generalization of optimizations for ISAs compiled into a directed, architectural-agnostic resource graphs. </p>
 
-      <p>This fall, I'll begin an IBM co-op as a Software Engineering Intern at Research Triangle Park in Durham, North Carolina.</p>
+      <p>This fall, I'll begin an IBM co-op as a Software Development Intern at Research Triangle Park in North Carolina.</p>
     </section>
 
     <section id="education">
@@ -68,9 +69,13 @@
         <li>Authored ISA specifications for the OpenTPU architecture, modeling instruction semantics and behavior while verifying correctness through Verilog testbenches.</li>
         <li>Implemented a recursive Merkle Hashing algorithm to automatically identify processing elements of a systolic-array optimization on a generalized resource graph.</li>
         <li>Verified a generalized systolic-array optimization for processor dataflow graphs by developing Verilog testbenches and debugging hardware execution in simulation.</li>
-        <li>Selected for UCSB’s competitive Early Research Scholars Program (ERSP); co-authored a formal research proposal outlining methodology and technical goals.</li>
+	<!--<li>Selected for UCSB’s competitive Early Research Scholars Program (ERSP); co-authored a formal research proposal outlining methodology and technical goals.</li> -->
+	<li>Presented research at Spring Computer Science Undergraduate Research Showcase</li>
+	<li> Proposal: <a href="ersp-proposal.pdf" target="_blank"><em>Generalizing Hardware Accelerator Optimizations for Directed ISA Compilation</em></a> </li>
       </ul>
-      <p><a href="ersp-proposal.pdf" target="_blank"><em>Generalizing Hardware Accelerator Optimizations for Directed ISA Compilation</em></a></p>
+      <a href="Poster.jpg" target="_blank">
+        <img src="Poster.jpg" alt="Research Poster" style="max-width: 100%; margin-top: 0.25rem;" />
+      </a>
     </section>
 
     <section id="experience">
@@ -78,13 +83,13 @@
 
       <div class="job">
         <div class="job-header">
-          <h3>Software Developer Intern</h3>
+          <h3>Software Engineering Intern</h3>
           <span class="job-date">Apr 2026 &ndash; Present</span>
         </div>
-        <p class="job-location">University of California, Santa Barbara | UCSB ITS</p>
+        <p class="job-location">University of California, Santa Barbara</p>
         <ul class="job-bullets">
-          <li>Accepted into the 2026&ndash;2027 UCSB IT Cohort.</li>
-          <li>Working on DataSHORE, a multi-petabyte database system that allows UCSB researchers to upload and access their research data.</li>
+	  <li> Designing and building a full-stack FAIR-compliance pipeline for Dataverse, spanning backend automation, API integrations, a reporting UI, and notification systems, to automate metadata quality assessment for published research datasets </li>
+	  <!--<li>Working on DataSHORE, a multi-petabyte database system that allows UCSB researchers to upload and access their research data.</li> -->
         </ul>
       </div>
 
@@ -111,8 +116,9 @@
         <p class="job-location">Humanity Unleashed</p>
         <ul class="job-bullets">
           <li>Contributed to the AI Legislature frontend team, designing and implementing user interfaces for a legal policy generation platform using React and Tailwind CSS.</li>
-          <li>Analyzed Human-Computer Interaction research papers and contributed to internal technical writing, co-authoring a paper: <a href="https://arxiv.org/abs/2412.06936" target="_blank"><em>Creating a Cooperative AI Policymaking Platform through Open Source Collaboration</em></a>.</li>
+          <li>Analyzed Human-Computer Interaction research papers and contributed to internal technical writing, co-authoring a paper.</li>
         </ul>
+        <p>Paper: <a href="https://arxiv.org/abs/2412.06936" target="_blank"><em>Creating a Cooperative AI Policymaking Platform through Open Source Collaboration</em></a></p>
       </div>
 
       <div class="job">
@@ -162,6 +168,8 @@
           </div>
           <a href="https://github.com/nathanqiuUCSB/ExtendAble" class="btn" target="_blank">GitHub &rarr;</a>
           <a href="https://devpost.com/software/robotic-arm-j4fmbq" class="btn" target="_blank">Devpost &rarr;</a>
+          <img src="RoboticArm.jpeg" alt="RoboticArm" style="display: block; max-width: 60%; margin-top: 0.25rem;" />
+
         </div>
 
         <div class="card">
@@ -178,6 +186,7 @@
             <span>PyRTL</span>
           </div>
         </div>
+
 
 
 
@@ -203,10 +212,10 @@
     <section id="skills">
       <h2>Skills</h2>
       <ul class="skill-list">
-        <li>Languages: C/C++, Python, Java, JavaScript, MIPS assembly, Verilog</li>
+        <li>Languages: C/C++, Python, Java, JavaScript, MIPS assembly, SQL, Verilog</li>
         <li>Frameworks: React, Next.js, Django, FastAPI</li>
-        <li>Developer Tools: Git, Linux, Bash, Postman, VS Code, Claude Code, Makefiles</li>
-        <li>Databases and Cloud Tools: Supabase (PostGreSQL)</li>
+        <li>Developer Tools: Git, Linux, Bash, Postman, Vim, VS Code, Claude Code, Makefiles</li>
+        <li>Databases and Cloud Tools: Supabase (PostGreSQL), Oracle Cloud</li>
       </ul>
     </section>
 
