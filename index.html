@@ -35,7 +35,7 @@
       <h2>About</h2>
       <p>I'm a senior studying Computer Science at University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.</p>
 
-     <p>Right now, I'm working as a Software Engineering Intern at UCSB, where I'm building a FAIR-compliance pipeline with event-driven automation to assess metadata quality for datasets published on Dataverse.</p>
+     <p>Right now, I'm working as a Software Engineering Intern at UCSB, where I'm building a FAIR-compliance pipeline with event-driven automation to assess metadata quality for datasets published on UCSB's institutional research repository system called Dataverse.</p>
 
 
       <p>This previous year, I worked as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research focused on hardware accelerators, in particular OpenTPU, and the optimizations designed for their unique micro-architectures. Specifically, my work explored the generalization of optimizations for ISAs compiled into a directed, architectural-agnostic resource graphs. </p>
@@ -88,8 +88,13 @@
         </div>
         <p class="job-location">University of California, Santa Barbara</p>
         <ul class="job-bullets">
-	  <li> Designing and building a full-stack FAIR-compliance pipeline for Dataverse, spanning backend automation, API integrations, a reporting UI, and notification systems, to automate metadata quality assessment for published research datasets </li>
-	  <!--<li>Working on DataSHORE, a multi-petabyte database system that allows UCSB researchers to upload and access their research data.</li> -->
+          <li>Built a production-level metadata validation tool for Dataverse, UCSB’s 10+ petabyte institutional repository</li>
+          <li>Cut metadata processing time by 76% by designing SQLite caching layer to avoid redundant API calls</li>
+          <li>Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML,
+eliminating hardcoded logic and enabling scalability with zero code changes</li>
+          <li>Built a FastAPI/Jinja2 backend serving real-time validation reports using async httpx calls to keep request latency low</li>
+          <li>Secured Dataverse’s external tool integration callback protocol using base64-encoded, scoped signed URLs to avoid
+direct handling of API credentials</li>
         </ul>
       </div>
 
@@ -188,9 +193,27 @@
         </div>
 
 
+        <div class="card">
+          <h3>Two-Tier E-commerce & Inventory System (CS174A &mdash; Fundementals of Database Systems)</h3>
+          <p> A Java/JDBC CLI application pair simulating a real-world online retail platform, built on an Oracle AI Database. </p>
+
+          <ul class="job-bullets">
+            <li>Designed and implemented a normalized relational schema (11+ tables) on Oracle AI Database modeling products, customers, orders, inventory, and shipping. </li>
+            <li>Enforced referential integrity via foreign keys, CHECK constraints, and regex-validated identifiers </li>
+            <li>Built a full customer-facing shopping flow backed by parameterized, injection-safe JDBC queries against Oracle AI Database </li>
+            <li>Built a manager dashboard for price/status overrides, order pruning, and monthly sales analytics (top products, top categories, top customers) via aggregate SQL queries</li>
+            <li>Used JDBC transactions with explicit commit and rollback control to guarantee atomicity across multi-table operations </li>
+          </ul>
+          <div class="tags">
+            <span>Java</span>
+            <span>Oracle Cloud</span>
+            <span>SQL</span>
+            <span>Database Design</span>
+          </div>
+        </div>
 
 
-          <!-- <div class="card">
+        <div class="card">
           <h3>Millikan Oil Drop Experiment</h3>
           <p>Replicated the Nobel Prize-winning Millikan oil drop experiment to empirically derive the fundamental charge of an electron.</p>
           <ul class="job-bullets">
@@ -202,9 +225,9 @@
             <span>Experimental Design</span>
             <span>Physics</span>
             <span>Data Analysis</span>
-            <span>Hardware</span>
+            <span>Calculus</span>
           </div>
-        </div> -->
+        </div>
 
       </div>
     </section>
