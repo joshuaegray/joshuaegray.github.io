@@ -14,7 +14,7 @@
         <h1>Joshua Gray</h1>
         <p class="tagline">Computer Science at UCSB</p>
 	<!-- </p class="tagline">Computer Architecture Researcher</p> -->
-	<p class="tagline">Incoming SDE at IBM</p>
+	<p class="tagline">SDE at IBM</p>
       </div>
       <img src="GithubHeadshot.jpeg" alt="Joshua Gray" class="headshot" />
     </div>
@@ -33,14 +33,18 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>I'm studying Computer Science at University of California, Santa Barbara with a strong interest in software engineering and computer architecture. I enjoy building systems from the ground up, having worked on full stack applications, backend systems, and emulators.</p>
+      <p>I'm studying Computer Science at University of California, Santa Barbara with extensive software engineering experience across the stack, ranging from low-level computer architecture research to agentic AI systems.</p>
 
-     <p>Right now, I'm working as a Software Engineering Intern at UCSB, where I'm building a FAIR-compliance pipeline with event-driven automation to assess metadata quality for datasets published on UCSB's institutional research repository system called Dataverse.</p>
+     <p>I'm currently working as a software engineer at IBM for a fall internship, where I'm working on watsonX Orchestrate, IBM's enterprise AI development platform.</p>
 
 
-      <p>This previous year, I worked as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research focused on hardware accelerators, in particular OpenTPU, and the optimizations designed for their unique micro-architectures. Specifically, my work explored the generalization of optimizations for ISAs compiled into a directed, architectural-agnostic resource graphs. </p>
+    <p>This previous year, I worked as a Computer Architecture Researcher in the UCSB ArchLab with Professor Balkind. My research focused on hardware accelerators, in particular OpenTPU, and the optimizations designed for their unique micro-architectures. Specifically, my work explored the generalization of optimizations for ISAs compiled into a directed, architectural-agnostic resource graphs. </p>
 
-      <p>This fall, I'll begin an IBM co-op as a Software Development Intern at Research Triangle Park in North Carolina.</p>
+
+    <p>With a strong background in foundational computer science and software engineering principles, I have the ability to learn and adapt quickly to new challenges.</p>
+
+    <p>I'm driven by technical rigor and enjoy collaborating with curious people to tackle hard problems. Always open to new challenges. Feel free to reach out!</p>
+
     </section>
 
     <section id="education">
@@ -81,20 +85,33 @@
     <section id="experience">
       <h2>Experience</h2>
 
+
       <div class="job">
         <div class="job-header">
           <h3>Software Engineering Intern</h3>
-          <span class="job-date">Apr 2026 &ndash; Present</span>
+          <span class="job-date">Aug 2026 &ndash; Present</span>
+        </div>
+        <p class="job-location">IBM</p>
+        <ul class="job-bullets">
+            <li>Integrated external LangGraph agents into watsonx Orchestrate’s agentic AI framework, enabling third-party agent usage within IBM’s enterprise AI platform.</li>
+            <li>Diagnosed and resolved an SDK compatibility issue in a containerized Python environment by building custom installable Docker images to reproduce, test, and validate the fix locally.</li>
+            <li>Currently integrating interrupt capabilities for LangGraph agents, as well as building support for Node.js in the SDK used by agents.</li>
+        </ul>
+      </div>
+
+
+      <div class="job">
+        <div class="job-header">
+          <h3>Software Engineering Intern</h3>
+          <span class="job-date">Apr 2026 &ndash; Aug 2026</span>
         </div>
         <p class="job-location">University of California, Santa Barbara</p>
         <ul class="job-bullets">
-          <li>Built a production-level metadata validation tool for Dataverse, UCSB’s 10+ petabyte institutional repository</li>
-          <li>Cut metadata processing time by 76% by designing SQLite caching layer to avoid redundant API calls</li>
-          <li>Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML,
-eliminating hardcoded logic and enabling scalability with zero code changes</li>
+          <li>Spearheaded the development of a Python metadata validation tool for UCSB’s 10+ petabyte research repository.</li>
+          <li>Cut metadata processing time by 71% by designing SQLite caching layer to avoid redundant API calls</li>
+          <li>Secured Dataverse’s external tool integration callback protocol using base64-encoded, scoped signed URLs, completely eliminating direct handling of API credentials</li>
           <li>Built a FastAPI/Jinja2 backend serving real-time validation reports using async httpx calls to keep request latency low</li>
-          <li>Secured Dataverse’s external tool integration callback protocol using base64-encoded, scoped signed URLs to avoid
-direct handling of API credentials</li>
+          <li>Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML, eliminating hardcoded logic and enabling scalability with zero code changes</li>
         </ul>
       </div>
 
