@@ -70,14 +70,13 @@
       <div class="job">
         <div class="job-header">
           <h3>Software Engineering Intern</h3>
-          <span class="job-date">Aug 2026 &ndash; Present</span>
+          <span class="job-date">Sep 2026 &ndash; Present</span>
         </div>
         <p class="job-location">IBM</p>
         <ul class="job-bullets">
-            <li>Integrated external LangGraph agents into watsonx Orchestrate’s agentic AI framework, enabling third-party agent usage within IBM’s enterprise AI platform.</li>
-            <li>Diagnosed and resolved an SDK compatibility issue in a containerized Python environment by building custom installable Docker images to reproduce, test, and validate the fix locally.</li>
-            <li>Revived and rebased a stalled PR adding Node.js support to the SDK and validated it by deploying to an ArgoCD-managed Kubernetes development sandbox.</li>
-            <li>Built an API endpoint to query a PostgreSQL database for agent versions and verified correctness with unit tests.</li>
+            <li>Eliminated 80% of duplicate LLM token consumption and cut latency by 70% by engineering SQLite checkpointer persistence for TypeScript LangGraph runtime environments and enabling stateful graph execution.</li>
+            <li>Expanded watsonx Orchestrate LangGraph coverage by 14% by completing Node.js SDK support for TypeScript LangGraph agents, implementing IBM Cloud token exchange and deploying images to K8s clusters via ArgoCD.</li>
+            <li>Unblocked users of externally hosted AI gateways by diagnosing and resolving a 3-month-old production issue in a containerized Python environment, reproducing and validating the fix with custom installable Docker images.</li>
         </ul>
       </div>
 
@@ -89,11 +88,9 @@
         </div>
         <p class="job-location">University of California, Santa Barbara</p>
         <ul class="job-bullets">
-          <li>Spearheaded the development of a Python metadata validation tool for UCSB’s 10+ petabyte research repository.</li>
-          <li>Cut metadata processing time by 71% by designing SQLite caching layer to avoid redundant API calls</li>
-          <li>Secured Dataverse’s external tool integration callback protocol using base64-encoded, scoped signed URLs, completely eliminating direct handling of API credentials</li>
-          <li>Built a FastAPI/Jinja2 backend serving real-time validation reports using async httpx calls to keep request latency low</li>
-          <li>Architected a modular YAML-configurable translation engine mapping JSON metadata to DataCite XML, eliminating hardcoded logic and enabling scalability with zero code changes</li>
+          <li>Increased metadata quality of datasets in UCSB’s 10+ petabyte research repository by designing and implementing a Python metadata validation tool that performs 17 automatic metadata quality checks.</li>
+          <li>Reduced metadata processing time by 40% through SQLite caching layer to avoid redundant API calls.</li>
+          <li>Protected user credentials in external tool integration by migrating from API tokens to scoped signed URLs.</li>
         </ul>
       </div>
 
@@ -104,9 +101,9 @@
         </div>
         <p class="job-location">ConstructWise | ACM.Industry</p>
         <ul class="job-bullets">
-          <li>Engineered an AI-powered web application that streamlines construction projects and scheduling, developing the product from idea to working prototype (Next.js, Python, Django, PostgreSQL).</li>
-          <li>Refined an AI-powered cost estimation system using advanced prompt engineering and Claude API-based tooling, improving accuracy by 50% while reducing token costs by 66%.</li>
-          <li>Optimized an LLM pipeline by implementing multithreaded API requests, reducing end-to-end runtime by over 70%.</li>
+          <li>Engineered an AI-powered web application from idea to MVP for a stealth startup that streamlines construction projects, enabling 5x faster bids and 20% fewer estimation errors (Next.js, Python, Django, PostgreSQL).</li>
+          <li>Optimized end-to-end runtime of an LLM pipeline by over 70% through implementing multithreaded API requests.</li>
+          <li>Refined the AI-powered cost estimation system by reducing token costs by 66% and improving accuracy by 50% by decomposing backend LLM queries into a series of hierarchical calls and utilizing Claude API-based tooling.</li>
           <!--<li>Architected Django-Supabase backend with secure authentication. Created and consumed REST APIs to enable rapid feature ideation.</li> -->
           <!--<li>Delivered reliable software features by contributing to a large monorepo with pull requests, branching, and Git workflows.</li> -->
         </ul>
@@ -144,15 +141,15 @@
       <h2>Research</h2>
       <div class="job-header">
         <h3>Computer Architecture Researcher &mdash; UCSB ArchLab</h3>
-        <span class="job-date">Sep 2025 &ndash; Present</span>
+        <span class="job-date">Sep 2025 &ndash; Jun 2026</span>
       </div>
       <p class="job-location">University of California, Santa Barbara</p>
       <ul class="job-bullets">
-        <li>Authored ISA specifications for the OpenTPU architecture, modeling instruction semantics and behavior while verifying correctness through Verilog testbenches.</li>
-        <li>Implemented a recursive Merkle Hashing algorithm to automatically identify processing elements of a systolic-array optimization on a generalized resource graph.</li>
-        <li>Verified a generalized systolic-array optimization for processor dataflow graphs by developing Verilog testbenches and debugging hardware execution in simulation.</li>
+        <li>Cut manual configuration of a microprocessor optimization framework by 75% by implementing a recursive Merkle hashing algorithm in Python to automatically identify processing elements in a systolic-array design.</li>
+        <li>Verified a systolic-array optimization that reduced critical path delay by 3% by building Verilog testbenches.</li>
+        <li>Implemented the OpenTPU ISA by writing 8 instructions in collaboration with graduate researchers.</li>
 	<!--<li>Selected for UCSB’s competitive Early Research Scholars Program (ERSP); co-authored a formal research proposal outlining methodology and technical goals.</li> -->
-	<li>Presented research at Spring Computer Science Undergraduate Research Showcase</li>
+	<li>Presented research to over 100 researchers, professors, and students at the Spring Computer Science Undergraduate Research Showcase</li>
 	<li> Proposal: <a href="ersp-proposal.pdf" target="_blank"><em>Generalizing Hardware Accelerator Optimizations for Directed ISA Compilation</em></a> </li>
       </ul>
       <a href="Poster.jpg" target="_blank">
